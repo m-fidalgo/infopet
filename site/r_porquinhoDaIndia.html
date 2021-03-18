@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=0" >
+	
+	<title> InfoPet</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/folhaDeEstilo.css" >
+	<link rel="stylesheet" type="text/css" href="style/siteResponsivo.css" >
+	<link rel="stylesheet" type="text/css" href="style/menuResponsivo.css" >
+	<link rel="shortcut icon" href="imgs/icons/lgInfoPet.ico" type="image/x-icon" />
+	<script src="js/modernizr.custom.js"></script>
+	<style media="all">
+
+	</style>
+</head>
+<body>
+<div id="all">
+	<!-- menu horizontal -->
+	<a name="topo"> </a>
+	<header>
+		<div id="logo">
+			<a href="Index.aspx"><img  title="Home" src="imgs/icons/logoInfoPet.png" /></a>
+		</div>
+		
+		<!-- menu dropdown -->
+		<nav>
+			<div class="dropdownMenu">
+				<button class="dropBtn" > <img src="imgs/icons/iconCachorro - Texto.png" /> </button>
+				<div class="dropContent">
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Cuidados > </button>					
+						<div class="dropContent3">
+							<a href="cuidadosCaes_filhotes.html"> Filhotes </a>	
+							<a href="cuidadosCaes_adultos.html"> Adultos </a>							
+						</div>
+					</div> 		
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="c_borderCollie.html"> Border Collie </a>
+							<a href="c_huskySiberiano.html"> Husky Siberiano </a>
+							<a href="c_labrador.html"> Labrador </a>
+							<a href="c_leonberger.html"> Leonberger </a>
+							<a href="c_luluPomerania.html"> Lulu da Pomerânia</a>
+							<a href="c_maltes.html"> Maltês </a>
+							<a href="c_pug.html"> Pug </a>
+							<a href="c_sharPei.html"> Shar Pei</a>
+						</div>
+					</div> 
+					<a href="produtosCaes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconGato - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosGatos.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="g_bengala.html"> Bengal</a>
+							<a href="g_maineCoon.html"> Maine Coon </a>
+							<a href="g_mauEgipcio.html"> Mau Egípcio</a>
+							<a href="g_siames.html"> Siamês</a>
+							<a href="g_sphynx.html"> Sphynx </a>
+						</div>
+					</div> 
+					<a href="produtosGatos.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPeixe - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPeixes.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="px_betta.html"> Betta </a>
+							<a href="px_danio.html"> Danio</a>
+							<a href="px_Dourado.html"> Dourado </a>
+							<a href="px_platys.html"> Platys</a>
+						</div>
+					</div>
+					<a href="produtosPeixes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPassaros - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPassaros.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="ps_cacatua.html"> Cacatua</a>
+							<a href="ps_calopsita.html"> Calopsita</a>
+							<a href="ps_canario.html"> Canário </a>
+						</div>
+					</div>
+					<a href="produtosPassaros.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconRoedores - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosRoedores.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Tipos > </button>					
+						<div class="dropContent2">
+							<a href="r_chinchila.html"> Chinchila </a>
+							<a href="r_hamster.html"> Hamster </a>
+							<a href="r_porquinhoDaIndia.html"> Porquinho da Índia</a>
+						</div>
+					</div>
+					<a href="produtosRoedores.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='usuario.aspx'">  <img src="imgs/icons/login - texto.png" />  </button>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='carrinho.aspx'">  <img src="imgs/icons/carrinho de compras.png" />  </button>
+			</div>
+		</nav>
+
+	<!-- fim menu dropdown horizontal -->
+		
+	<!--menu responsivo-->
+	
+	<div id="dl-menu" class="dl-menuwrapper">
+			<button class="dl-trigger">    </button>
+			
+			<ul class="dl-menu">
+				<li>
+					<a>Cães</a>
+					<ul class="dl-submenu">
+						<li>
+						<a>Cuidados</a>
+						<ul class="dl-submenu">
+							<li><a href="cuidadosCaes_filhotes.html">Filhotes</a></li>
+							<li><a href="cuidadosCaes_adultos.html">Adultos</a></li>
+						</ul>
+						</li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="c_borderCollie.html">Border Collie</a></li>
+								<li><a href="c_huskySiberiano.html">Husky Siberiano</a></li>
+								<li><a href="c_labrador.html">Labrador</a></li>
+								<li><a href="c_leonberger.html">Leonberger</a></li>
+								<li><a href="c_luluPomerania.html">Lulu da Pomerânia</a></li>
+								<li><a href="c_maltes.html">Maltês</a></li>
+								<li><a href="c_pug.html">Pug</a></li>
+								<li><a href="c_sharPei.html">Shar Pei</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosCaes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Gatos</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosGatos.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="g_bengala.html">Bengal</a></li>
+								<li><a href="g_maineCoon.html">Maine Coon</a></li>
+								<li><a href="g_mauEgipcio.html">Mau Egípcio</a></li>
+								<li><a href="g_siames.html">Siamês</a></li>
+								<li><a href="g_sphynx.html">Sphynx</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosGatos.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Peixes</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPeixes.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="px_betta.html">Betta</a></li>
+								<li><a href="px_danio.html">Danio</a></li>
+								<li><a href="px_Dourado.html">Dourado</a></li>
+								<li><a href="px_platys.html">Platys</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPeixes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Pássaros</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPassaros.html">Cuidados</a></li>
+						<li>
+							<a href="#">Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="ps_cacatua.html">Cacatua</a></li>
+								<li><a href="ps_calopsita.html">Calopsita</a></li>
+								<li><a href="ps_canario.html">Canário</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPassaros.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Roedores</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosRoedores.html">Cuidados</a></li>
+						<li>
+							<a>Tipos</a>
+							<ul class="dl-submenu">
+								<li><a href="r_chinchila.html">Chinchila</a></li>
+								<li><a href="r_hamster.html">Hamster</a></li>
+								<li><a href="r_porquinhoDaIndia.html">Porquinho da Índia</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosRoedores.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li><a href="usuario.aspx">Usuário</a></li>
+				<li><a href="carrinho.aspx">Carrinho</a></li>
+				
+			</ul>
+	</div>
+	
+	<!--fim menu responsivo-->
+	
+	</header>
+	
+	<div class="topoImg">
+		<img  class src="imgs/imgTopo/porquinhoDaIndia.jpg" width="100%" />
+	</div>
+	
+	<div id="conteudo">	
+		<div class="geral">
+			<div class="temp">
+				<p><img class="geralImg" src="imgs/icons/temperamento.png" /> 			
+				&nbsp;&nbsp;Dóceis;</br>
+				&nbsp;&nbsp;Pacíficos;</br>
+				&nbsp;&nbsp;Curiosos.</p> 
+			</div>
+			<div class="cores">
+				<p><img class="geralImg" src="imgs/icons/pincel.png" /> 
+				&nbsp;&nbsp;Branco; </br>
+				&nbsp;&nbsp;Preto;</br>
+				&nbsp;&nbsp;Marrom...</p>
+			</div>
+		</div>
+		</br>
+		<div class="contTexto">
+			<h1 class="titulo"> Origem </h1>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp; 
+			São naturais da América do Sul e os únicos de sua espécie, a <i>Cavia aperea tschudii</i>, que são animais domesticados.
+			</p>
+		</div>
+		</br>
+		<div class="contTexto">
+			<h1 class="titulo"> Características Gerais</h1>
+			<ul>
+				<li>São muito dóceis e amam carinho, podem ficar horas dormindo no colo;</li></br>
+				<li>Podem e devem ficar fora da gaiola, porém com a supervisão de alguém, para que não façam algo indesejado ou fiquem com
+				medo de algo.</li></br>
+				<li>A natureza dos porquinhos-da-índia é sempre estar com um parceiro.</li></br>
+				<li>Deve-se ter cuidado ao criar um macho e uma fêmea juntos, pois a reprodução desses animais é continua.</li>
+			</ul>
+		</div>
+		</br>
+		<div class="info">
+			<div class="expVida">
+				<img class="infoImg" id="expVidaTxt" src="imgs/icons/expVida - texto.png" /></br>
+				<div class="min"> 
+					<p><img class="expImg" src="imgs/icons/expVidaMin.png" />
+					Mínimo: </br>
+					5 anos</p>
+				</div>
+				<div class="max">
+					<p><img class="expImg" src="imgs/icons/expVidaMax.png" />
+					Máximo: </br>
+					8 anos</p>
+				</div>
+			</div>
+			<div class="compPeso">
+				<div class="peso2">
+					<img class="infoImg" src="imgs/icons/peso - texto.png" />
+					<ul>
+					<li>Min.: 600g. </li>
+					<li>Max.: 1,5kg. </li>
+					</ul>
+				</div>
+				<div class="comp2">					
+					<img class="infoImg" src="imgs/icons/comprimento - texto.png" />
+					<ul class="infoList">
+					<li>Min.: 20cm. </li>
+					<li>Max.: 30cm. </li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		</br>
+		<div class="contTexto">
+			<h1 class="titulo"> Raças </h1>
+			<ul>
+				<li>Abissínio: Pelo formado por rosetas que cobrem todo seu corpo, parecem espinhos, mas são muito macios. Na maioria deles,
+				as rosetas terminam em um ponto sem pelo;</li></br>
+				<li>Angorá: Os pelos sãos pontiagudos em algumas partes especificas do corpo, e não crescem tanto como os do peruano;</li></br>
+				<li>Peruano: Pelos lisos e longos que podem chegar até o chão, devido a isso devem ter uma ótima higiene. Não recomendado
+				para crianças que não podem dar toda essa atenção ao animal.</li>				
+			</ul>
+		</div>
+		<div class="contTexto">
+		<h1 class="titulo"> Alimentação </h1>
+		<ul>
+			<li>São animais herbívoros.</li></br>
+			<li>A principal fonte de alimento é o capim (ou feno) que deve estar disponível a ele durante todo o dia</li></br>
+			<li>Demais legumes e verduras podem ser oferecidos uma vez no dia.</li></br>
+			<li>Se o animal for alimentado apenas com rações, visitas periódicas devem ser feitas ao veterinário.</li></br>
+			<li>Alguns alimentos como cenoura, batata, feijão, figo, couve, couve flor, frutas e demais alimentos consumidos por 
+			humanos não são recomendados já que podem causar complicações em seu sistema digestório.</li>
+		</ul>
+		<h1 class="titulo"> Gaiola </h1>
+			<ul>
+				<li>Para apenas um animal: 90 x 90 x 30cm³;</li></br>
+				<li>Para dois: 120 x 80 x 30cm³;</li></br>
+				<li>Para três: 180 x 80 x 30cm³.</li>
+			</ul>
+		</div>
+	</div>
+
+	<footer>
+		</br>
+		<p id="footerP" >SIGA-NOS &nbsp; &nbsp; 
+		<a href="http://www.facebook.com"> <img class="icons" src="imgs/icons/iconFacebook.png" /> </a> 
+		<a href="http://www.instagram.com"> <img class="icons" src="imgs/icons/iconInstagram.png" /> </a> 
+		<a href="http://www.twitter.com"> <img class="icons" src="imgs/icons/iconTwitter.png" /> </a>
+		<a href="http://www.youtube.com"> <img class="icons" src="imgs/icons/iconYoutube.png" id="iconY" /> </a> </p>
+		
+		<a href="#topo"> <img id="patas" title="Subir ao topo" src="imgs/icons/patas.png" /> </a>	
+	
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu({
+				animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+			});
+		});
+	</script>
+</body>
+</html>

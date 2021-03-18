@@ -1,0 +1,29 @@
+﻿   
+    .linkCont {
+		text-decoration: none;
+	}
+	
+	.cont1 {
+		text-align: center;
+	}
+	
+	.box1 {
+		margin-left: 13%;
+		width: 33%;
+		float: left;
+	}
+	
+	.box2 {
+		margin-right: 13%;
+		width: 33%;
+		float: right;
+	}
+
+	.box1img {
+		width: 100%;
+	}	
+	
+	.box2img {
+		width: 100%;
+	}		
+	

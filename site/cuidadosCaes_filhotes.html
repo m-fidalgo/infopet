@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=0" >
+	
+	<title> InfoPet</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/folhaDeEstilo.css" >
+	<link rel="stylesheet" type="text/css" href="style/siteResponsivo.css" >
+	<link rel="shortcut icon" href="imgs/icons/lgInfoPet.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/menuResponsivo.css" />
+		
+	<script src="js/modernizr.custom.js"></script>
+	
+	<style media="all">
+	#conteudo{
+		text-align: justify;
+	}
+	
+	footer {
+		margin-bottom: -50px;
+	}
+	
+	.contTexto{
+		margin-left: 20%;
+		margin-right: 16%;
+	}
+	
+	h2, h3 {
+		color: #104E8B;
+		font-family: "agency FB"
+	}
+		
+	.iconPata {
+		height: 18px;
+	}	
+	
+	#flashContent { 
+		width: 100%; 
+		height: 100%;
+		margin-left: 12%;	
+	}
+	</style>
+</head>
+<body>
+<div id="all">
+	<!-- menu horizontal -->
+	<a name="topo"> </a>
+	<header>
+		<div id="logo">
+			<a href="Index.aspx"><img  title="Home" src="imgs/icons/logoInfoPet.png" /></a>
+		</div>
+		
+		<!-- menu dropdown -->
+		<nav>
+			<div class="dropdownMenu">
+				<button class="dropBtn" > <img src="imgs/icons/iconCachorro - Texto.png" /> </button>
+				<div class="dropContent">
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Cuidados > </button>					
+						<div class="dropContent3">
+							<a href="cuidadosCaes_filhotes.html"> Filhotes </a>	
+							<a href="cuidadosCaes_adultos.html"> Adultos </a>							
+						</div>
+					</div> 		
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="c_borderCollie.html"> Border Collie </a>
+							<a href="c_huskySiberiano.html"> Husky Siberiano </a>
+							<a href="c_labrador.html"> Labrador </a>
+							<a href="c_leonberger.html"> Leonberger </a>
+							<a href="c_luluPomerania.html"> Lulu da Pomerânia</a>
+							<a href="c_maltes.html"> Maltês </a>
+							<a href="c_pug.html"> Pug </a>
+							<a href="c_sharPei.html"> Shar Pei</a>
+						</div>
+					</div> 
+					<a href="produtosCaes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconGato - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosGatos.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="g_bengala.html"> Bengal</a>
+							<a href="g_maineCoon.html"> Maine Coon </a>
+							<a href="g_mauEgipcio.html"> Mau Egípcio</a>
+							<a href="g_siames.html"> Siamês</a>
+							<a href="g_sphynx.html"> Sphynx </a>
+						</div>
+					</div> 
+					<a href="produtosGatos.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPeixe - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPeixes.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="px_betta.html"> Betta </a>
+							<a href="px_danio.html"> Danio</a>
+							<a href="px_Dourado.html"> Dourado </a>
+							<a href="px_platys.html"> Platys</a>
+						</div>
+					</div>
+					<a href="produtosPeixes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPassaros - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPassaros.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="ps_cacatua.html"> Cacatua</a>
+							<a href="ps_calopsita.html"> Calopsita</a>
+							<a href="ps_canario.html"> Canário </a>
+						</div>
+					</div>
+					<a href="produtosPassaros.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconRoedores - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosRoedores.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Tipos > </button>					
+						<div class="dropContent2">
+							<a href="r_chinchila.html"> Chinchila </a>
+							<a href="r_hamster.html"> Hamster </a>
+							<a href="r_porquinhoDaIndia.html"> Porquinho da Índia</a>
+						</div>
+					</div>
+					<a href="produtosRoedores.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='usuario.aspx'">  <img src="imgs/icons/login - texto.png" />  </button>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='carrinho.aspx'">  <img src="imgs/icons/carrinho de compras.png" />  </button>
+			</div>
+		</nav>
+
+	<!-- fim menu dropdown horizontal -->
+		
+	<!--menu responsivo-->
+	
+	<div id="dl-menu" class="dl-menuwrapper">
+			<button class="dl-trigger">    </button>
+			
+			<ul class="dl-menu">
+				<li>
+					<a>Cães</a>
+					<ul class="dl-submenu">
+						<li>
+						<a>Cuidados</a>
+						<ul class="dl-submenu">
+							<li><a href="cuidadosCaes_filhotes.html">Filhotes</a></li>
+							<li><a href="cuidadosCaes_adultos.html">Adultos</a></li>
+						</ul>
+						</li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="c_borderCollie.html">Border Collie</a></li>
+								<li><a href="c_huskySiberiano.html">Husky Siberiano</a></li>
+								<li><a href="c_labrador.html">Labrador</a></li>
+								<li><a href="c_leonberger.html">Leonberger</a></li>
+								<li><a href="c_luluPomerania.html">Lulu da Pomerânia</a></li>
+								<li><a href="c_maltes.html">Maltês</a></li>
+								<li><a href="c_pug.html">Pug</a></li>
+								<li><a href="c_sharPei.html">Shar Pei</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosCaes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Gatos</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosGatos.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="g_bengala.html">Bengal</a></li>
+								<li><a href="g_maineCoon.html">Maine Coon</a></li>
+								<li><a href="g_mauEgipcio.html">Mau Egípcio</a></li>
+								<li><a href="g_siames.html">Siamês</a></li>
+								<li><a href="g_sphynx.html">Sphynx</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosGatos.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Peixes</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPeixes.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="px_betta.html">Betta</a></li>
+								<li><a href="px_danio.html">Danio</a></li>
+								<li><a href="px_Dourado.html">Dourado</a></li>
+								<li><a href="px_platys.html">Platys</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPeixes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Pássaros</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPassaros.html">Cuidados</a></li>
+						<li>
+							<a href="#">Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="ps_cacatua.html">Cacatua</a></li>
+								<li><a href="ps_calopsita.html">Calopsita</a></li>
+								<li><a href="ps_canario.html">Canário</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPassaros.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Roedores</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosRoedores.html">Cuidados</a></li>
+						<li>
+							<a>Tipos</a>
+							<ul class="dl-submenu">
+								<li><a href="r_chinchila.html">Chinchila</a></li>
+								<li><a href="r_hamster.html">Hamster</a></li>
+								<li><a href="r_porquinhoDaIndia.html">Porquinho da Índia</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosRoedores.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li><a href="usuario.aspx">Usuário</a></li>
+				<li><a href="carrinho.aspx">Carrinho</a></li>
+				
+			</ul>
+	</div>
+	
+	<!--fim menu responsivo-->
+	
+	</header>
+	
+	<div class="topoImg">
+		<img src="imgs/imgTopo/c_filhotes.jpg" width="100%" />
+	<div>
+	
+	<div id="conteudo">	
+		<div class="contTexto">
+			<h1 class="titulo"> Filhotes </h1>
+			
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Você que acabou de adotar um filhote, leve-o a um veterinário e faça todos os exames necessários para cuidar do seu novo amigo.
+			Na maioria das vezes esses cuidados devem ser tomados logo depois dele ter desmamado, em torno de um mês mais ou menos. Aqui estão
+			alguns exames básicos que seu filhote deve fazer.</p>	
+			
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Exame de fezes</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leve o cãozinho para fazer o exame de fezes, pois este é um dos mais importantes porque é nele que será possível identificar
+			o tipo de parasita que o animal apresenta e para que possa haver um tratamento adequado.</p>
+
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Vermifugação</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse exame é feito após o exame de fezes e é nele que será feito o tratamento para que a saúde do cãozinho não piore, pois
+			alguns dos vermes podem levá-lo a morte. Vale lembrar que alguns desses vermes podem parasitar o ser humano também, como o Bicho geográfico.</p>
+
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" />Vacinação</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após o filhote ter feito os exames anteriores existem agora quatro etapas de vacinas que seu cãozinho deve cumprir.</p>
+				<ul>
+				<li>1ª Dose: vacina múltipla (V8 ou V10);</li>
+				<li>2ª Dose: o tempo mínimo para esta dose são 20 dias mais ou menos após a primeira. Segunda dose das vacinas V8
+				e V10 e também a primeira dose da vacina contra Bordetella.</li>
+				<li>3ª Dose: terceira dose da vacina V8 e V10 e a segunda e última dose da vacina contra a Bordetella.</li>
+				<li>4ª Dose: a última vacina é a Antirrábica, que previne a raiva em cães e gatos. Dependendo
+				do veterinário ela pode ser aplicada junto com a quarta dose da V8 e V10.</li>
+				</ul>
+				
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" />Prevenção para Dirofilariose</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Essa doença na verdade, precisa de um tratamento durante toda a vida do cachorro, principalmente dos que vivem em regiões mais
+			afetadas como cidades litorâneas. Se trata de um parasita que bota seus “ovos” no coração do cachorro e então acarreta em consequências como
+			insuficiência cardíaca levando a morte. Consulte o veterinário para saber quando iniciar o tratamento, mas a na maioria das vezes ele se inicia por
+			volta dos 3 meses de vida.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Prevenção contra ectoparasitas</h3>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse tratamento na verdade depende do tipo de parasita, portanto, se o animal apresentar comportamento fora do normal como
+			vômito e diarreia, leve-o ao veterinário para que o especialista possa passar a medicação correta e o tratamento adequado para aquele parasita.
+			Para evitar a contaminação, limpe frequentemente o ambiente do animal e sempre procure por carrapatos e pulgas que podem ser vistos a olho nu
+			(tome cuidado ao retirar um carrapato, pois se retirar seu corpo, a parte gordinha, sua cabeça pode continuar no lugar).</p>
+
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Castração precoce</h3>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A castração precoce é na maioria das vezes feita nas fêmeas para prevenção de algumas de algumas doenças (como o câncer de
+			mama, que pode ser prevenido se a castração for feita antes do primeiro cio), mas principalmente impedir a reprodução da fêmea (que gera muita
+			dor de cabeça se não for desejada), mas também é feita em machos para evitar agressividade entre outros. </p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Alimentação</h3>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A alimentação dos cães não é algo que possa ser deixado de lado, pois alguns cães, como o Beagle, necessitam de atenção na
+			hora de se alimentar. O tipo de ração e a quantidade, devem ser escolhidas com cuidado, devendo levar em consideração o tamanho, o peso e o tempo
+			de atividade que o cachorro exerce. Em relação a ração e comida caseira, prefira sempre ração, pois ela previne contra o tártaro dentário e a 
+			comida caseira pode trazer inúmeras reações ao organismo do animal.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Banho e tosa</h3>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esses dois cuidados dependem muito da raça do cachorro, pois alguns apresentam pelagem maior que outros ou a então a pele
+			de um pode ser mais frágil que a do outro. Cães assim como nós necessitam de banho isso é obvio, mas o banho em excesso pode prejudicar a adaptação
+			de algumas bactérias que ajudam o cão em seu sistema imunológico. No caso dos filhotes o banho é liberado após dois meses de vida (banhos em pet
+			shops só são permitidos após o cão ter feito pelo menos os três primeiros cuidados básicos) e ainda sim, não se pode utilizar qualquer tipo de
+			produto na limpeza, apenas os recomendados para filhotes.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Cuidados com os dentes</h3>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pode parecer estranho, mas seu cachorrinho precisa sim de escovação dentária, que é tão importante quanto um pelo bem cuidado.
+			A escovação é necessária para a prevenção contra o tártaro que em casos muito extremos pode até matar o cãozinho, além de prevenir outras doenças
+			que podem se instalar em sua boca. É indicado começar a acostumar o animal quando ainda pequeno (dois meses e meio mais ou menos), assim conforme
+			ele for crescendo a relação de vocês será muito mais calorosa, pois o cachorro passa a ter uma confiança muito maior em você.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Troca de dentes</h3>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aqui não há muito o que fazer a não ser ajudar no processo. A troca dos dentes pode ocorrer por volta dos 4 e 6 meses. Você
+			pode ajudar na alimentação e dando brinquedos mais maleáveis para evitar sangramento entre outros. Em geral, os cães completam o ciclo por volta
+			dos 7 meses, mas como para toda regra há exceção, tudo depende da raça.</p>					
+		</div>
+		</br>	
+	
+	<footer>
+		</br>
+		<p id="footerP" >SIGA-NOS &nbsp; &nbsp; 
+		<a href="http://www.facebook.com"> <img class="icons" src="imgs/icons/iconFacebook.png" /> </a> 
+		<a href="http://www.instagram.com"> <img class="icons" src="imgs/icons/iconInstagram.png" /> </a> 
+		<a href="http://www.twitter.com"> <img class="icons" src="imgs/icons/iconTwitter.png" /> </a>
+		<a href="http://www.youtube.com"> <img class="icons" src="imgs/icons/iconYoutube.png" id="iconY" /> </a> </p>
+		
+		<a href="#topo"> <img id="patas" title="Subir ao topo" src="imgs/icons/patas.png" /> </a>	
+	
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu({
+				animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+			});
+		});
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=0" >
+	
+	<title> InfoPet</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/folhaDeEstilo.css" >
+	<link rel="stylesheet" type="text/css" href="style/siteResponsivo.css" >
+	<link rel="shortcut icon" href="imgs/icons/lgInfoPet.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/menuResponsivo.css" />
+		
+	<script src="js/modernizr.custom.js"></script>
+	
+	<style media="all">
+	#conteudo{
+		text-align: justify;
+	}
+	
+	footer {
+		margin-bottom: -50px;
+	}
+	
+	.contTexto{
+		margin-left: 20%;
+		margin-right: 16%;
+	}
+	
+	h2, h3 {
+		color: #104E8B;
+		font-family: "agency FB"
+	}	
+	
+	.iconPata {
+		height: 18px;
+	}	
+		
+	#flashContent { 
+		width: 100%; 
+		height: 100%;
+        margin-right: 10%;	
+	}
+	</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="all">
+	<!-- menu horizontal -->
+	<a name="topo"> </a>
+	<header>
+		<div id="logo">
+			<a href="Index.aspx"><img  title="Home" src="imgs/icons/logoInfoPet.png" /></a>
+		</div>
+		
+		<!-- menu dropdown -->
+		<nav>
+			<div class="dropdownMenu">
+				<button class="dropBtn" > <img src="imgs/icons/iconCachorro - Texto.png" /> </button>
+				<div class="dropContent">
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Cuidados > </button>					
+						<div class="dropContent3">
+							<a href="cuidadosCaes_filhotes.html"> Filhotes </a>	
+							<a href="cuidadosCaes_adultos.html"> Adultos </a>							
+						</div>
+					</div> 		
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="c_borderCollie.html"> Border Collie </a>
+							<a href="c_huskySiberiano.html"> Husky Siberiano </a>
+							<a href="c_labrador.html"> Labrador </a>
+							<a href="c_leonberger.html"> Leonberger </a>
+							<a href="c_luluPomerania.html"> Lulu da Pomerânia</a>
+							<a href="c_maltes.html"> Maltês </a>
+							<a href="c_pug.html"> Pug </a>
+							<a href="c_sharPei.html"> Shar Pei</a>
+						</div>
+					</div> 
+					<a href="produtosCaes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconGato - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosGatos.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="g_bengala.html"> Bengal</a>
+							<a href="g_maineCoon.html"> Maine Coon </a>
+							<a href="g_mauEgipcio.html"> Mau Egípcio</a>
+							<a href="g_siames.html"> Siamês</a>
+							<a href="g_sphynx.html"> Sphynx </a>
+						</div>
+					</div> 
+					<a href="produtosGatos.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPeixe - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPeixes.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="px_betta.html"> Betta </a>
+							<a href="px_danio.html"> Danio</a>
+							<a href="px_Dourado.html"> Dourado </a>
+							<a href="px_platys.html"> Platys</a>
+						</div>
+					</div>
+					<a href="produtosPeixes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPassaros - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPassaros.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="ps_cacatua.html"> Cacatua</a>
+							<a href="ps_calopsita.html"> Calopsita</a>
+							<a href="ps_canario.html"> Canário </a>
+						</div>
+					</div>
+					<a href="produtosPassaros.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconRoedores - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosRoedores.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Tipos > </button>					
+						<div class="dropContent2">
+							<a href="r_chinchila.html"> Chinchila </a>
+							<a href="r_hamster.html"> Hamster </a>
+							<a href="r_porquinhoDaIndia.html"> Porquinho da Índia</a>
+						</div>
+					</div>
+					<a href="produtosRoedores.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='usuario.aspx'">  <img src="imgs/icons/login - texto.png" />  </button>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='carrinho.aspx'">  <img src="imgs/icons/carrinho de compras.png" />  </button>
+			</div>
+		</nav>
+
+	<!-- fim menu dropdown horizontal -->
+		
+	<!--menu responsivo-->
+	
+	<div id="dl-menu" class="dl-menuwrapper">
+			<button class="dl-trigger">    </button>
+			
+			<ul class="dl-menu">
+				<li>
+					<a>Cães</a>
+					<ul class="dl-submenu">
+						<li>
+						<a>Cuidados</a>
+						<ul class="dl-submenu">
+							<li><a href="cuidadosCaes_filhotes.html">Filhotes</a></li>
+							<li><a href="cuidadosCaes_adultos.html">Adultos</a></li>
+						</ul>
+						</li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="c_borderCollie.html">Border Collie</a></li>
+								<li><a href="c_huskySiberiano.html">Husky Siberiano</a></li>
+								<li><a href="c_labrador.html">Labrador</a></li>
+								<li><a href="c_leonberger.html">Leonberger</a></li>
+								<li><a href="c_luluPomerania.html">Lulu da Pomerânia</a></li>
+								<li><a href="c_maltes.html">Maltês</a></li>
+								<li><a href="c_pug.html">Pug</a></li>
+								<li><a href="c_sharPei.html">Shar Pei</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosCaes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Gatos</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosGatos.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="g_bengala.html">Bengal</a></li>
+								<li><a href="g_maineCoon.html">Maine Coon</a></li>
+								<li><a href="g_mauEgipcio.html">Mau Egípcio</a></li>
+								<li><a href="g_siames.html">Siamês</a></li>
+								<li><a href="g_sphynx.html">Sphynx</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosGatos.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Peixes</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPeixes.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="px_betta.html">Betta</a></li>
+								<li><a href="px_danio.html">Danio</a></li>
+								<li><a href="px_Dourado.html">Dourado</a></li>
+								<li><a href="px_platys.html">Platys</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPeixes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Pássaros</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPassaros.html">Cuidados</a></li>
+						<li>
+							<a href="#">Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="ps_cacatua.html">Cacatua</a></li>
+								<li><a href="ps_calopsita.html">Calopsita</a></li>
+								<li><a href="ps_canario.html">Canário</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPassaros.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Roedores</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosRoedores.html">Cuidados</a></li>
+						<li>
+							<a>Tipos</a>
+							<ul class="dl-submenu">
+								<li><a href="r_chinchila.html">Chinchila</a></li>
+								<li><a href="r_hamster.html">Hamster</a></li>
+								<li><a href="r_porquinhoDaIndia.html">Porquinho da Índia</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosRoedores.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li><a href="usuario.aspx">Usuário</a></li>
+				<li><a href="carrinho.aspx">Carrinho</a></li>
+				
+			</ul>
+	</div>
+	
+	<!--fim menu responsivo-->
+	
+	</header>
+	
+	<div class="topoImg">
+		<img src="imgs/imgTopo/c_adultos.jpg" width="100%" />
+	</div>
+	
+	<div id="conteudo">	
+		<div class="contTexto">						
+			<h1 class="titulo"> Adultos </h1>			
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Se você está com o seu cão desde o começo da vida dele, muitas das suas necessidades básicas já foram atendidas (ou pelo menos,
+								deveriam...). Agora, se você adotou um cachorro já adulto, algumas coisas não serão fáceis de acostumá-lo, como a escovação dos
+								dentes por exemplo.</p>			
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Vacinas, vermífugos e castração (que no caso é opcional, pois filhotes as vezes não são desejados pelo tutor) já deveriam ter
+								sido precavidas enquanto ele ainda era um filhote, mas se você adotou um cachorro de rua leve-o ao veterinário para que um
+								profissional indique qual a necessidade do seu amigão (veja em cuidados básicos para filhotes).</p>						
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Aqui estão alguns “cuidados” que devem ajudar durante a vida do seu cachorro. Vale lembrar que são mais coisas relacionadas
+								a exercícios e atividades para garanti saúde ao animal, pois vacinas e outros são tomados no período “infantil”.</p>
+								
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Treinamento</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O treinamento decorre com o passar da vida do cachorro, sendo que o convívio com o tutor influencia e muito, pois o cachorro
+			estabelece uma relação tutor-cachorro, e se essa relação não for das melhores o cachorro muitas vezes pode se tonar agressivo e também passar a se
+			isolar mais. Dependendo da raça, o treinamento é muitas vezes algo fácil se comparado às outras, como o Border Collie por exemplo, que é considerado
+			um cão muito inteligente e dinâmico.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Exercícios</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os exercícios também são muito importantes, já que contribuem contra o sedentarismo. Lembre se de ter um bom espaço para seu
+			cachorro, para que ele possa correr e brincar. Dependendo da situação, apenas deixar um espaço para o cão se exercitar não é o suficiente, ele deve
+			ser acompanhado e comandado pelo treinador ou o próprio tutor.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Alimentação</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Em geral os cães adultos devem ser alimentados duas vezes ao dia, sendo administrado o tempo (para que ele não coma tudo de
+			uma vez), porem como já foi dito nos cuidados para filhotes, alguns cães precisam de atenção para não comer muito ou menos do que devem.</p>
+			
+            <div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="90px" id="pedigree" align="middle">
+				<param name="movie" value="banners/pedigree.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#f2af00" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="banners/pedigree.swf" width="100%" height="90px">
+					<param name="movie" value="banners/pedigree.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#f2af00" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obter Adobe Flash Player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+			</div>
+
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Banho</h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim como já foi dito aqui no site, os cães não devem tomar banhos diários como os humanos, pois isso prejudica sua
+			pelagem e sua pele, que ajudam na proteção. Também é importante o uso dos produtos certos indicados para o seu cachorro.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Escovação da pelagem </h3> 
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse cuidado na verdade varia de raça para raça, pois alguns cães possuem pelagem mais densa e também pelagem dupla, adquirida
+			durante a evolução da raça. Entretanto, na maioria dos casos, a pelagem deve ser escovada semanalmente para que os pelos não embaracem e também 
+			parasitas como carrapatos não se aglomerem.</p>					
+
+			<h2>Cuidados com a saúde do cão:</h2>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Por mais que o seu amigo peludo pareça saudável, ele pode não estar, pois alguns cães apresentam sintomas que as vezes não
+			percebemos. Procure sempre estar atento a medicação do seu cão e leve-o periodicamente ao veterinário para ter sempre a aprovação de um
+			profissional.</p>
+			<p class="paragrafo">Alguns sintomas que são comuns:</p>
+				<ul>
+					<li>Fezes com sangue ou moles;</li>
+					<li>Fraqueza e falta de falta de vontade de brincar;</li>
+					<li>Rejeição de alimento;</li>
+				</ul>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Fique atento as vacinas que seu cão deve tomar. As vacinas são renovadas todos os anos (a não ser aquelas de “dose única”), portanto
+			o calendário de vacina deve ser levado a sério, pois doenças estão em todos os lugares como em praças, parques e até mesmo em seu bairro e essas doenças
+			na maioria das vezes matam.</p>
+			
+		</div>
+		</br>	
+	
+	<footer>
+		</br>
+		<p id="footerP" >SIGA-NOS &nbsp; &nbsp; 
+		<a href="http://www.facebook.com"> <img class="icons" src="imgs/icons/iconFacebook.png" /> </a> 
+		<a href="http://www.instagram.com"> <img class="icons" src="imgs/icons/iconInstagram.png" /> </a> 
+		<a href="http://www.twitter.com"> <img class="icons" src="imgs/icons/iconTwitter.png" /> </a>
+		<a href="http://www.youtube.com"> <img class="icons" src="imgs/icons/iconYoutube.png" id="iconY" /> </a> </p>
+		
+		<a href="#topo"> <img id="patas" title="Subir ao topo" src="imgs/icons/patas.png" /> </a>	
+	
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu({
+				animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+			});
+		});
+	</script>
+</body>
+</html>

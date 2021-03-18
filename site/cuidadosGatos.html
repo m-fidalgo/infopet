@@ -1,0 +1,396 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=0" >
+	
+	<title> InfoPet</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/folhaDeEstilo.css" >
+	<link rel="stylesheet" type="text/css" href="style/siteResponsivo.css" >
+	<link rel="shortcut icon" href="imgs/icons/lgInfoPet.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/menuResponsivo.css" />
+		
+	<script src="js/modernizr.custom.js"></script>
+	
+	<style media="all">	
+	#conteudo{
+		text-align: justify;
+	}
+	
+	footer {
+		margin-bottom: -50px;
+	}
+		
+	.contTexto{
+		margin-left: 20%;
+		margin-right: 16%;
+	}
+	
+	h2, h3 {
+		color: #104E8B;
+		font-family: "agency FB"
+	}
+	
+	.iconPata {
+		height: 18px;
+	}	
+		
+	#flashContent { 
+		width: 100%; 
+		height: 100%;	
+	}
+	</style>
+</head>
+<body>
+<div id="all">
+	<!-- menu horizontal -->
+	<a name="topo"> </a>
+	<header>
+		<div id="logo">
+			<a href="Index.aspx"><img  title="Home" src="imgs/icons/logoInfoPet.png" /></a>
+		</div>
+		
+		<!-- menu dropdown -->
+		<nav>
+			<div class="dropdownMenu">
+				<button class="dropBtn" > <img src="imgs/icons/iconCachorro - Texto.png" /> </button>
+				<div class="dropContent">
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Cuidados > </button>					
+						<div class="dropContent3">
+							<a href="cuidadosCaes_filhotes.html"> Filhotes </a>	
+							<a href="cuidadosCaes_adultos.html"> Adultos </a>							
+						</div>
+					</div> 		
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="c_borderCollie.html"> Border Collie </a>
+							<a href="c_huskySiberiano.html"> Husky Siberiano </a>
+							<a href="c_labrador.html"> Labrador </a>
+							<a href="c_leonberger.html"> Leonberger </a>
+							<a href="c_luluPomerania.html"> Lulu da Pomerânia</a>
+							<a href="c_maltes.html"> Maltês </a>
+							<a href="c_pug.html"> Pug </a>
+							<a href="c_sharPei.html"> Shar Pei</a>
+						</div>
+					</div> 
+					<a href="produtosCaes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconGato - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosGatos.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="g_bengala.html"> Bengal</a>
+							<a href="g_maineCoon.html"> Maine Coon </a>
+							<a href="g_mauEgipcio.html"> Mau Egípcio</a>
+							<a href="g_siames.html"> Siamês</a>
+							<a href="g_sphynx.html"> Sphynx </a>
+						</div>
+					</div> 
+					<a href="produtosGatos.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPeixe - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPeixes.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="px_betta.html"> Betta </a>
+							<a href="px_danio.html"> Danio</a>
+							<a href="px_Dourado.html"> Dourado </a>
+							<a href="px_platys.html"> Platys</a>
+						</div>
+					</div>
+					<a href="produtosPeixes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPassaros - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPassaros.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="ps_cacatua.html"> Cacatua</a>
+							<a href="ps_calopsita.html"> Calopsita</a>
+							<a href="ps_canario.html"> Canário </a>
+						</div>
+					</div>
+					<a href="produtosPassaros.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconRoedores - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosRoedores.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Tipos > </button>					
+						<div class="dropContent2">
+							<a href="r_chinchila.html"> Chinchila </a>
+							<a href="r_hamster.html"> Hamster </a>
+							<a href="r_porquinhoDaIndia.html"> Porquinho da Índia</a>
+						</div>
+					</div>
+					<a href="produtosRoedores.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='usuario.aspx'">  <img src="imgs/icons/login - texto.png" />  </button>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='carrinho.aspx'">  <img src="imgs/icons/carrinho de compras.png" />  </button>
+			</div>
+		</nav>
+
+	<!-- fim menu dropdown horizontal -->
+		
+	<!--menu responsivo-->
+	
+	<div id="dl-menu" class="dl-menuwrapper">
+			<button class="dl-trigger">    </button>
+			
+			<ul class="dl-menu">
+				<li>
+					<a>Cães</a>
+					<ul class="dl-submenu">
+						<li>
+						<a>Cuidados</a>
+						<ul class="dl-submenu">
+							<li><a href="cuidadosCaes_filhotes.html">Filhotes</a></li>
+							<li><a href="cuidadosCaes_adultos.html">Adultos</a></li>
+						</ul>
+						</li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="c_borderCollie.html">Border Collie</a></li>
+								<li><a href="c_huskySiberiano.html">Husky Siberiano</a></li>
+								<li><a href="c_labrador.html">Labrador</a></li>
+								<li><a href="c_leonberger.html">Leonberger</a></li>
+								<li><a href="c_luluPomerania.html">Lulu da Pomerânia</a></li>
+								<li><a href="c_maltes.html">Maltês</a></li>
+								<li><a href="c_pug.html">Pug</a></li>
+								<li><a href="c_sharPei.html">Shar Pei</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosCaes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Gatos</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosGatos.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="g_bengala.html">Bengal</a></li>
+								<li><a href="g_maineCoon.html">Maine Coon</a></li>
+								<li><a href="g_mauEgipcio.html">Mau Egípcio</a></li>
+								<li><a href="g_siames.html">Siamês</a></li>
+								<li><a href="g_sphynx.html">Sphynx</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosGatos.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Peixes</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPeixes.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="px_betta.html">Betta</a></li>
+								<li><a href="px_danio.html">Danio</a></li>
+								<li><a href="px_Dourado.html">Dourado</a></li>
+								<li><a href="px_platys.html">Platys</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPeixes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Pássaros</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPassaros.html">Cuidados</a></li>
+						<li>
+							<a href="#">Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="ps_cacatua.html">Cacatua</a></li>
+								<li><a href="ps_calopsita.html">Calopsita</a></li>
+								<li><a href="ps_canario.html">Canário</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPassaros.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Roedores</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosRoedores.html">Cuidados</a></li>
+						<li>
+							<a>Tipos</a>
+							<ul class="dl-submenu">
+								<li><a href="r_chinchila.html">Chinchila</a></li>
+								<li><a href="r_hamster.html">Hamster</a></li>
+								<li><a href="r_porquinhoDaIndia.html">Porquinho da Índia</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosRoedores.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li><a href="usuario.aspx">Usuário</a></li>
+				<li><a href="carrinho.aspx">Carrinho</a></li>
+				
+			</ul>
+	</div>
+	
+	<!--fim menu responsivo-->
+	
+	</header>
+	
+	<div class="topoImg">
+		<img src="imgs/imgTopo/g_cuidados.jpg" width="100%" />
+	</div>
+	
+	<div id="conteudo">	
+		<div class="contTexto">
+			<h1 class="titulo"> Gatos </h1>
+			
+			<p> &nbsp;&nbsp;&nbsp;&nbsp;Gatos, diferentes dos cães, são animais bem mais independentes e não precisam
+			de tanta atenção quanto seus “rivais”. No entanto gatos gostam muito de seus donos, então um carinho
+			ou outro de vez em quando não faz mal.</p>	
+
+			<p> &nbsp;&nbsp;&nbsp;&nbsp;Eles são sim mais independentes que seus amigos peludos, mas não quer dizer que
+			não precisem de tanto cuidado e atenção quanto os cães, além de serem animais muito inteligentes e
+			curiosos, o que pode colocar os moveis da sua casa em perigo...</p>	
+
+			<p> &nbsp;&nbsp;&nbsp;&nbsp;Preparamos uma lista de cuidados básicos que você deve tomar ao adotar o seu amigo
+			felino.</p>
+			
+		
+			<h2>Exames e vacinas:</h2>
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Exame de fezes</h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim como os cães, os gatos precisam fazer um exame de fezes, que pode ser
+				feito em torno de seus primeiros 30 dias de vida, mas esse exame é um dos mais importantes pois é
+				nele que se detecta o tipo de infecção e o tratamento devido a ela, então para que seu gatinho continue
+				saudável, leve-o para fazer esse IMPORTANTÍSSIMO exame.</p>
+
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Vermifugação</h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse exame é feito após receber o resultado do exame de fezes. Nele, um tratamento
+				é feito para que os vermes contraídos pelo animal sejam combatidos e a saúde do gato não piore. Esse exame
+				é também um dos mais vitais a ser feito, pois alguns desses veres MATAM.</p>
+
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Vacinação</h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após os primeiros exames, o gatinho está pronto para os exames de vacina que são
+				compostos por três etapas.</p>
+					<ul>
+						<li>1ª Dose: Feita a partir de 60 dias (aproximadamente). Primeira dose da vacina V3, V4 ou V5.</li>
+						<li>2ª Dose: Após um mês mais ou menos depois da primeira. Segunda dose das vacinas V3, V4 ou V5.</li>
+						<li>3ª Dose: Após 20 ou 30 dias depois da segunda. Terceira e última dose das vacinas V3, V4 ou V5 junto com vacina antirrábica.</li>				
+					</ul>
+				
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Exame para leucemia felina</h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pode ser feito a partir dos dois meses de vida. Essa doença ataca o sistema imunológico
+				do bichano e o deixa exposto para todos os outros tipos de doença. Esse exame é recomendado principalmente para
+				gatos de origem desconhecida, pois já podem ter contraído a doença.</p>
+						
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Prevenção contra ectoparasitas</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pode ser feito a partir do primeiro mês de vida dependendo do produto utilizado.</p>
+						
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Castração precoce</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A castração é adotada na maioria das vezes por não possibilitar a reprodução do animal,
+				mas as fêmeas podem contrair câncer de mama e com a castração precoce, esse risco é prevenido na maioria dos
+				casos. Ela pode ser feita após o quinto mês de vida do animal, que costuma ser antes do primeiro cio. </p>
+			
+			<h2>Cuidados:</h2>
+			
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Alimentação</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gatos assim como todas as outras espécies, precisam de uma dieta especifica, sendo
+				que precisam dos valores certos de nutrientes. Em geral, o certo seria alimentar seu gato duas vezes por
+				dia, mas se for um gato velhinho, ou um filhote ou até mesmo uma gatinha prenha, é recomendado pequenas
+				doses de ração durante o dia.</p>
+				</br>
+				<div id="flashContent">
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="60" id="royalCanin" align="middle">
+					<param name="movie" value="banners/royalCanin.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<!--[if !IE]>-->
+					<object type="application/x-shockwave-flash" data="banners/royalCanin.swf" width="100%" height="60">
+						<param name="movie" value="banners/royalCanin.swf" />
+						<param name="quality" value="high" />
+						<param name="bgcolor" value="#ffffff" />
+						<param name="play" value="true" />
+						<param name="loop" value="true" />
+						<param name="wmode" value="window" />
+						<param name="scale" value="showall" />
+						<param name="menu" value="true" />
+						<param name="devicefont" value="false" />
+						<param name="salign" value="" />
+						<param name="allowScriptAccess" value="sameDomain" />
+					<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obter Adobe Flash Player" />
+					</a>
+					<!--[if !IE]>-->
+					</object>
+					<!--<![endif]-->
+				</object>
+				</div>	
+				</br>
+				
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Saúde</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por serem animais que estão sempre indo e vindo da rua, gatos podem contrair diversos
+				malefícios, por isso o local onde o seu gato vive tem sempre que estar bem limpo para que não se alojem maus
+				indesejados. Cuidados com a pelagem, os dentes e orelhas são essenciais, então consulte sempre um veterinário
+				para que haja uma limpeza adequada.</p>
+			
+				<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" />Escovação dos pelos</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PIndependente do tipo de pelagem, curta ou longa, a escovação deve ser feita regularmente
+				para que os pelos não embaracem (principalmente os de pelagem longa) e também para a verificaçãode parasitas.</p>	
+				
+						
+		</div>
+		</br>	
+	
+	<footer>
+		</br>
+		<p id="footerP" >SIGA-NOS &nbsp; &nbsp; 
+		<a href="http://www.facebook.com"> <img class="icons" src="imgs/icons/iconFacebook.png" /> </a> 
+		<a href="http://www.instagram.com"> <img class="icons" src="imgs/icons/iconInstagram.png" /> </a> 
+		<a href="http://www.twitter.com"> <img class="icons" src="imgs/icons/iconTwitter.png" /> </a>
+		<a href="http://www.youtube.com"> <img class="icons" src="imgs/icons/iconYoutube.png" id="iconY" /> </a> </p>
+		
+		<a href="#topo"> <img id="patas" title="Subir ao topo" src="imgs/icons/patas.png" /> </a>	
+	
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu({
+				animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+			});
+		});
+	</script>
+</body>
+</html>

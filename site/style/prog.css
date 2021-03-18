@@ -1,0 +1,159 @@
+﻿.progCont{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.tituloProg { 
+	color: #104E8B;
+	font-family: "agency FB";
+}
+
+.tituloProgExibir { 
+	color: #104E8B;
+	font-family: "agency FB";
+    text-align: center;
+}
+
+.txt {
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 7px 7px;
+    outline: none;
+}
+
+.txt:focus {
+        border: 2px solid #104E8B;
+}
+
+.btn {
+    background-color: #FFCC33;
+    color: white;
+    font-family: "roboto-bold";
+    border: none;
+    cursor: pointer;
+    line-height: 20px;
+    outline: none;
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+}
+
+.btn1 {
+    background-color: #FFCC33;
+    color: white;
+    font-family: "roboto-bold";
+    border: none;
+    cursor: pointer;
+    line-height: 20px;
+    outline: none;
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.btnFU {
+    background-color: #FFCC33;
+    color: white;
+    font-family: "roboto-bold";
+    border: none;
+    cursor: pointer;
+    line-height: 20px;
+    outline: none;
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 12.5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btnProd {
+    text-align: center;
+}
+.ddl {
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 7px 7px;
+    outline: none;
+}
+
+.ddl:focus {
+   border: 2px solid #104E8B;
+}
+
+.vld{
+    font-size: 10px;
+}
+
+.progImg {
+    height: 100px;
+}
+
+.progAdm {
+    text-align: center;
+}
+
+.brCss {
+    display: none;
+}
+
+.brCss2 {
+    display: none;
+}
+
+.brCssProd {
+    display: none;
+}
+
+.dlCss{
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.imgExibir {
+    height: 200px;
+}
+
+.desc {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prodExibir{
+    width: 50%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media screen and (max-width: 875px) {
+    .brCss2{
+         display: block;
+     }
+    
+     .progCont{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .brCss {
+        display: block;
+    }
+
+    .btn1 {
+        margin-left: 0px;
+    }
+}

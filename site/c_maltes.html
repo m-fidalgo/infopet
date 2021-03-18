@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=0" >
+	
+	<title> InfoPet</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/folhaDeEstilo.css" >
+	<link rel="stylesheet" type="text/css" href="style/siteResponsivo.css" >
+	<link rel="shortcut icon" href="imgs/icons/lgInfoPet.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/menuResponsivo.css" />
+		
+	<script src="js/modernizr.custom.js"></script>
+	
+	<style media="all">
+
+	</style>
+</head>
+<body>
+<div id="all">
+	<!-- menu horizontal -->
+	<a name="topo"> </a>
+	<header>
+		<div id="logo">
+			<a href="Index.aspx"><img  title="Home" src="imgs/icons/logoInfoPet.png" /></a>
+		</div>
+		
+		<!-- menu dropdown -->
+		<nav>
+			<div class="dropdownMenu">
+				<button class="dropBtn" > <img src="imgs/icons/iconCachorro - Texto.png" /> </button>
+				<div class="dropContent">
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Cuidados > </button>					
+						<div class="dropContent3">
+							<a href="cuidadosCaes_filhotes.html"> Filhotes </a>	
+							<a href="cuidadosCaes_adultos.html"> Adultos </a>							
+						</div>
+					</div> 		
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="c_borderCollie.html"> Border Collie </a>
+							<a href="c_huskySiberiano.html"> Husky Siberiano </a>
+							<a href="c_labrador.html"> Labrador </a>
+							<a href="c_leonberger.html"> Leonberger </a>
+							<a href="c_luluPomerania.html"> Lulu da Pomerânia</a>
+							<a href="c_maltes.html"> Maltês </a>
+							<a href="c_pug.html"> Pug </a>
+							<a href="c_sharPei.html"> Shar Pei</a>
+						</div>
+					</div> 
+					<a href="produtosCaes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconGato - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosGatos.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="g_bengala.html"> Bengal</a>
+							<a href="g_maineCoon.html"> Maine Coon </a>
+							<a href="g_mauEgipcio.html"> Mau Egípcio</a>
+							<a href="g_siames.html"> Siamês</a>
+							<a href="g_sphynx.html"> Sphynx </a>
+						</div>
+					</div> 
+					<a href="produtosGatos.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPeixe - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPeixes.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="px_betta.html"> Betta </a>
+							<a href="px_danio.html"> Danio</a>
+							<a href="px_Dourado.html"> Dourado </a>
+							<a href="px_platys.html"> Platys</a>
+						</div>
+					</div>
+					<a href="produtosPeixes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPassaros - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPassaros.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="ps_cacatua.html"> Cacatua</a>
+							<a href="ps_calopsita.html"> Calopsita</a>
+							<a href="ps_canario.html"> Canário </a>
+						</div>
+					</div>
+					<a href="produtosPassaros.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconRoedores - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosRoedores.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Tipos > </button>					
+						<div class="dropContent2">
+							<a href="r_chinchila.html"> Chinchila </a>
+							<a href="r_hamster.html"> Hamster </a>
+							<a href="r_porquinhoDaIndia.html"> Porquinho da Índia</a>
+						</div>
+					</div>
+					<a href="produtosRoedores.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='usuario.aspx'">  <img src="imgs/icons/login - texto.png" />  </button>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='carrinho.aspx'">  <img src="imgs/icons/carrinho de compras.png" />  </button>
+			</div>
+		</nav>
+
+	<!-- fim menu dropdown horizontal -->
+		
+	<!--menu responsivo-->
+	
+	<div id="dl-menu" class="dl-menuwrapper">
+			<button class="dl-trigger">    </button>
+			
+			<ul class="dl-menu">
+				<li>
+					<a>Cães</a>
+					<ul class="dl-submenu">
+						<li>
+						<a>Cuidados</a>
+						<ul class="dl-submenu">
+							<li><a href="cuidadosCaes_filhotes.html">Filhotes</a></li>
+							<li><a href="cuidadosCaes_adultos.html">Adultos</a></li>
+						</ul>
+						</li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="c_borderCollie.html">Border Collie</a></li>
+								<li><a href="c_huskySiberiano.html">Husky Siberiano</a></li>
+								<li><a href="c_labrador.html">Labrador</a></li>
+								<li><a href="c_leonberger.html">Leonberger</a></li>
+								<li><a href="c_luluPomerania.html">Lulu da Pomerânia</a></li>
+								<li><a href="c_maltes.html">Maltês</a></li>
+								<li><a href="c_pug.html">Pug</a></li>
+								<li><a href="c_sharPei.html">Shar Pei</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosCaes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Gatos</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosGatos.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="g_bengala.html">Bengal</a></li>
+								<li><a href="g_maineCoon.html">Maine Coon</a></li>
+								<li><a href="g_mauEgipcio.html">Mau Egípcio</a></li>
+								<li><a href="g_siames.html">Siamês</a></li>
+								<li><a href="g_sphynx.html">Sphynx</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosGatos.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Peixes</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPeixes.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="px_betta.html">Betta</a></li>
+								<li><a href="px_danio.html">Danio</a></li>
+								<li><a href="px_Dourado.html">Dourado</a></li>
+								<li><a href="px_platys.html">Platys</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPeixes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Pássaros</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPassaros.html">Cuidados</a></li>
+						<li>
+							<a href="#">Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="ps_cacatua.html">Cacatua</a></li>
+								<li><a href="ps_calopsita.html">Calopsita</a></li>
+								<li><a href="ps_canario.html">Canário</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPassaros.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Roedores</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosRoedores.html">Cuidados</a></li>
+						<li>
+							<a>Tipos</a>
+							<ul class="dl-submenu">
+								<li><a href="r_chinchila.html">Chinchila</a></li>
+								<li><a href="r_hamster.html">Hamster</a></li>
+								<li><a href="r_porquinhoDaIndia.html">Porquinho da Índia</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosRoedores.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li><a href="usuario.aspx">Usuário</a></li>
+				<li><a href="carrinho.aspx">Carrinho</a></li>
+				
+			</ul>
+	</div>
+	
+	<!--fim menu responsivo-->
+	
+	</header>
+	
+	<div class="topoImg">
+		<img  class src="imgs/imgTopo/maltes.jpg" width="100%" />
+	</div>
+	
+	<div id="conteudo">	
+		<div class="geral">
+			<div class="temp">
+				<p><img class="geralImg" src="imgs/icons/temperamento.png" /> 			
+				&nbsp;&nbsp;Ativo;</br>
+				&nbsp;&nbsp;Amigável;</br>
+				&nbsp;&nbsp;Sociável.</p> 
+			</div>
+			<div class="cores">
+				<p><img class="geralImg" src="imgs/icons/pincel.png" /> 
+				&nbsp;&nbsp;Branco; </br>
+				&nbsp;&nbsp;Cinza;</br>
+				&nbsp;&nbsp;Laranja.</p>
+			</div>
+		</div>
+		</br>
+		<div class="contTexto">
+			<h1 class="titulo"> Origem </h1>
+			<p> &nbsp;&nbsp;&nbsp;&nbsp; A raça tem como origem a ilha de Malta, no Mediterrâneo.
+			A raça Maltês está entre as mais antigas raças caninas do mundo, sendo mencionados em 
+			documentos de 300 a.C. Foram comercializados na Europa e na Ásia, e quando chegaram
+			na Inglaterra, se tornaram os queridinhos das damas da sociedade. Depois de lentamente
+			crescer em sua popularidade, hoje é um dos cachorros mais adotados.</p>
+		</div>
+		</br>
+		<div class="contTexto">
+			<h1 class="titulo"> Características Gerais </h1>
+			<ul>
+				<li>É um cachorro de porte pequeno.</li></br>
+				<li>Possui uma pelagem branca, sedosa, brilhante, macia e lisa se bem cuidada.</li></br>
+				<li>Latem muito.</li></br>
+				<li>A queda de pelos é baixa.</li></br>
+				<li>Indicado para apartamentos por causa do seu tamanho e do seu temperamento.</li></br>
+				<li>O preço de um Maltês varia de R$ 1200 a R$ 4500.</li>
+			</ul>
+		</div>
+		</br>
+		<div class="info">
+			<div class="expVida">
+				<img class="infoImg" id="expVidaTxt" src="imgs/icons/expVida - texto.png" /></br>
+				<div class="min"> 
+					<p><img class="expImg" src="imgs/icons/expVidaMin.png" />
+					Mínimo: </br>
+					15 anos</p>
+				</div>
+				<div class="max">
+					<p><img class="expImg" src="imgs/icons/expVidaMax.png" />
+					Máximo: </br>
+					18 anos</p>
+				</div>
+			</div>
+			<div class="altPeso">
+				<div class="altura">
+					<img class="infoImg" src="imgs/icons/altura - texto.png" />
+					<ul class="infoList">
+					<li>Min.: 20cm. </li>
+					<li>Max.: 25cm. </li>
+					</ul>
+				</div>
+				<div class="peso">
+					<img class="infoImg" src="imgs/icons/peso - texto.png" />
+					<ul>
+					<li>Min.: 3kg. </li>
+					<li>Max.: 4kg. </li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		</br>
+		<div class="contTexto">
+			<img class="iconCuidados" src="imgs/icons/estetoscopio.png" />
+			<h1 class="titulo"> Cuidados </h1>
+			<ul>
+				<li>Passeios frequentes e brincadeiras ao ar livre.</li></br>
+				<li>Devem ter os pelos escovados diariamente por uma escova de pinos ou um pente de aço inoxidável.</li></br>				
+				<li>Aparar as unhas semanalmente.</li></br>
+				<li>Escovar os dentes com frequência, com um creme dental apropriado para pets.</li></br>
+				<li>Dar banho sempre que notar uma cor acinzentada em seus pelos.</li></br>
+				<li>Quantidade diária de alimento: de ¼ a ½ xícara de alimento seco.</li>
+			</ul>
+		</div>
+	</div>
+
+	<footer>
+		</br>
+		<p id="footerP" >SIGA-NOS &nbsp; &nbsp; 
+		<a href="http://www.facebook.com"> <img class="icons" src="imgs/icons/iconFacebook.png" /> </a> 
+		<a href="http://www.instagram.com"> <img class="icons" src="imgs/icons/iconInstagram.png" /> </a> 
+		<a href="http://www.twitter.com"> <img class="icons" src="imgs/icons/iconTwitter.png" /> </a>
+		<a href="http://www.youtube.com"> <img class="icons" src="imgs/icons/iconYoutube.png" id="iconY" /> </a> </p>
+		
+		<a href="#topo"> <img id="patas" title="Subir ao topo" src="imgs/icons/patas.png" /> </a>	
+	
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu({
+				animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+			});
+		});
+	</script>
+	
+</body>
+</html>

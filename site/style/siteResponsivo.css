@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 1100px) {	
+	.expVida {
+		float: left;
+		width: 60%;
+		margin-left: 22%;
+		margin-bottom: 20px;
+	}
+	
+	.min {
+		margin-left: 7%;
+		width: 43%;
+	}
+	
+	.max {
+		margin-left: 5%;
+		width: 45%;
+	}
+	
+	.altPeso {
+		float: left;
+		width: 60%;
+		margin-left: 30%;
+	}
+	
+	.compPeso {
+		float: left;
+		width: 60%;
+		margin-left: 25%;
+	}
+	
+	.comp {
+		float: left;
+		width: 60%;
+		margin-left: 40%;
+	}
+	
+	.comp1 {
+		float: left;
+		width: 60%;
+		margin-left: 40%;
+	}
+}
+
+@media screen and (max-width: 875px){
+	.temp{
+		margin-left: 15%;
+		width: 28%;
+	}
+	
+	.cores {
+		margin-right: 12%;
+		width: 28%;
+	}
+}
+
+
+
+@media screen and (max-width: 675px){
+	.geral {
+		height: 200px;
+	}
+	
+	.temp{
+		width: 65%;
+		margin-left: 35%;
+		margin-bottom: 10px;
+	}
+	
+	.cores {
+		width: 65%;
+		float: left;
+		margin-left: 35%;
+		margin-right: 0;
+	}
+	
+		
+	.infoImg {
+		height: 30px;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	h1{
+		font-size: 25px;
+	}
+	
+	.expImg {
+		height: 20px;
+	}
+	
+	#footerP {
+		margin-top: -5pt;
+		width: 70%;
+	}
+	
+	#patas {
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 283px){
+	#footerP{
+		margin-top: -19pt;
+	}
+	
+	#patas {
+		margin-top: -100px;
+	}
+	
+	.compPeso {
+		float: left;
+		width: 60%;
+		margin-left: 15%;
+	}
+	
+	.comp {
+		float: left;
+		width: 60%;
+		margin-left: 55%;
+	}
+	
+	.comp1 {
+		float: left;
+		width: 60%;
+		margin-left: 25%;
+	}
+	
+	.expVida {
+		margin-left: 30%;
+	}
+}

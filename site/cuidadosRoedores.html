@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalabe=0" >
+	
+	<title> InfoPet</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/folhaDeEstilo.css" >
+	<link rel="stylesheet" type="text/css" href="style/siteResponsivo.css" >
+	<link rel="shortcut icon" href="imgs/icons/lgInfoPet.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/menuResponsivo.css" />
+		
+	<script src="js/modernizr.custom.js"></script>
+	
+	<style media="all">
+	#conteudo{
+		text-align: justify;
+	}
+	
+	footer {
+		margin-bottom: -50px;
+	}
+	
+	.contTexto{
+		margin-left: 20%;
+		margin-right: 16%;
+	}
+	
+	h2, h3 {
+		color: #104E8B;
+		font-family: "agency FB"
+	}
+		
+	.iconPata {
+		height: 18px;
+	}	
+	
+	#flashContent { 
+		float: right;
+		margin-left: 20px;		
+	}
+	
+	@media screen and (max-width: 450px){
+		#flashContent {
+			float: left;
+			margin-left: 30%;
+			margin-right: 20%;
+			margin-bottom: 20px;
+		}
+	}
+	
+	</style>
+</head>
+<body>
+<div id="all">
+	<!-- menu horizontal -->
+	<a name="topo"> </a>
+	<header>
+		<div id="logo">
+			<a href="Index.aspx"><img  title="Home" src="imgs/icons/logoInfoPet.png" /></a>
+		</div>
+		
+		<!-- menu dropdown -->
+		<nav>
+			<div class="dropdownMenu">
+				<button class="dropBtn" > <img src="imgs/icons/iconCachorro - Texto.png" /> </button>
+				<div class="dropContent">
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Cuidados > </button>					
+						<div class="dropContent3">
+							<a href="cuidadosCaes_filhotes.html"> Filhotes </a>	
+							<a href="cuidadosCaes_adultos.html"> Adultos </a>							
+						</div>
+					</div> 		
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="c_borderCollie.html"> Border Collie </a>
+							<a href="c_huskySiberiano.html"> Husky Siberiano </a>
+							<a href="c_labrador.html"> Labrador </a>
+							<a href="c_leonberger.html"> Leonberger </a>
+							<a href="c_luluPomerania.html"> Lulu da Pomerânia</a>
+							<a href="c_maltes.html"> Maltês </a>
+							<a href="c_pug.html"> Pug </a>
+							<a href="c_sharPei.html"> Shar Pei</a>
+						</div>
+					</div> 
+					<a href="produtosCaes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconGato - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosGatos.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="g_bengala.html"> Bengal</a>
+							<a href="g_maineCoon.html"> Maine Coon </a>
+							<a href="g_mauEgipcio.html"> Mau Egípcio</a>
+							<a href="g_siames.html"> Siamês</a>
+							<a href="g_sphynx.html"> Sphynx </a>
+						</div>
+					</div> 
+					<a href="produtosGatos.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPeixe - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPeixes.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="px_betta.html"> Betta </a>
+							<a href="px_danio.html"> Danio</a>
+							<a href="px_Dourado.html"> Dourado </a>
+							<a href="px_platys.html"> Platys</a>
+						</div>
+					</div>
+					<a href="produtosPeixes.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconPassaros - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosPassaros.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Raças > </button>					
+						<div class="dropContent2">
+							<a href="ps_cacatua.html"> Cacatua</a>
+							<a href="ps_calopsita.html"> Calopsita</a>
+							<a href="ps_canario.html"> Canário </a>
+						</div>
+					</div>
+					<a href="produtosPassaros.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" >  <img src="imgs/icons/iconRoedores - Texto.png" /> </button>
+				<div class="dropContent">
+					<a href="cuidadosRoedores.html"> Cuidados</a>
+					<div class="dropBtn2Cont"> 
+						<button class="dropBtn2"> Tipos > </button>					
+						<div class="dropContent2">
+							<a href="r_chinchila.html"> Chinchila </a>
+							<a href="r_hamster.html"> Hamster </a>
+							<a href="r_porquinhoDaIndia.html"> Porquinho da Índia</a>
+						</div>
+					</div>
+					<a href="produtosRoedores.aspx"> Produtos</a>
+				</div>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='usuario.aspx'">  <img src="imgs/icons/login - texto.png" />  </button>
+			</div>
+			<div class="dropdownMenu">
+				<button class="dropBtn" onclick="window.location.href='carrinho.aspx'">  <img src="imgs/icons/carrinho de compras.png" />  </button>
+			</div>
+		</nav>
+
+	<!-- fim menu dropdown horizontal -->
+		
+	<!--menu responsivo-->
+	
+	<div id="dl-menu" class="dl-menuwrapper">
+			<button class="dl-trigger">    </button>
+			
+			<ul class="dl-menu">
+				<li>
+					<a>Cães</a>
+					<ul class="dl-submenu">
+						<li>
+						<a>Cuidados</a>
+						<ul class="dl-submenu">
+							<li><a href="cuidadosCaes_filhotes.html">Filhotes</a></li>
+							<li><a href="cuidadosCaes_adultos.html">Adultos</a></li>
+						</ul>
+						</li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="c_borderCollie.html">Border Collie</a></li>
+								<li><a href="c_huskySiberiano.html">Husky Siberiano</a></li>
+								<li><a href="c_labrador.html">Labrador</a></li>
+								<li><a href="c_leonberger.html">Leonberger</a></li>
+								<li><a href="c_luluPomerania.html">Lulu da Pomerânia</a></li>
+								<li><a href="c_maltes.html">Maltês</a></li>
+								<li><a href="c_pug.html">Pug</a></li>
+								<li><a href="c_sharPei.html">Shar Pei</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosCaes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Gatos</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosGatos.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="g_bengala.html">Bengal</a></li>
+								<li><a href="g_maineCoon.html">Maine Coon</a></li>
+								<li><a href="g_mauEgipcio.html">Mau Egípcio</a></li>
+								<li><a href="g_siames.html">Siamês</a></li>
+								<li><a href="g_sphynx.html">Sphynx</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosGatos.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Peixes</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPeixes.html">Cuidados</a></li>
+						<li>
+							<a>Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="px_betta.html">Betta</a></li>
+								<li><a href="px_danio.html">Danio</a></li>
+								<li><a href="px_Dourado.html">Dourado</a></li>
+								<li><a href="px_platys.html">Platys</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPeixes.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Pássaros</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosPassaros.html">Cuidados</a></li>
+						<li>
+							<a href="#">Raças</a>
+							<ul class="dl-submenu">
+								<li><a href="ps_cacatua.html">Cacatua</a></li>
+								<li><a href="ps_calopsita.html">Calopsita</a></li>
+								<li><a href="ps_canario.html">Canário</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosPassaros.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li>
+					<a>Roedores</a>
+					<ul class="dl-submenu">
+						<li><a href="cuidadosRoedores.html">Cuidados</a></li>
+						<li>
+							<a>Tipos</a>
+							<ul class="dl-submenu">
+								<li><a href="r_chinchila.html">Chinchila</a></li>
+								<li><a href="r_hamster.html">Hamster</a></li>
+								<li><a href="r_porquinhoDaIndia.html">Porquinho da Índia</a></li>
+							</ul>
+						</li>
+						<li><a href="produtosRoedores.aspx">Produtos</a></li>
+					</ul>				
+				</li>
+				<li><a href="usuario.aspx">Usuário</a></li>
+				<li><a href="carrinho.aspx">Carrinho</a></li>
+				
+			</ul>
+	</div>
+	
+	<!--fim menu responsivo-->
+	
+	</header>
+	
+	<div class="topoImg">
+		<img src="imgs/imgTopo/porquinho_da_india.jpg" width="100%" />
+	<div>
+	
+	<div id="conteudo">	
+		<div class="contTexto">
+			<h1 class="titulo"> Roedores </h1>
+			
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Roedores de estimação são geralmente animais bem pequenos, que como o nome diz,
+			roem todo o tipo de coisas que seus dentes possam tocar. Por serem animais pequenos, são muito frágeis e
+			se ficarem irritados podem chegar a morder, por isso tome cuidado ao pegá-los ou acariciá-los na hora
+			errada, quando estão comendo ou dormindo por exemplo.</p>	
+			
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Cuidado com os dentes! </h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os dentes dos roedores crescem constantemente durante toda sua vida,
+			por isso precisam de alimentos que desgastem seus dentes caso contrário vários problemas podem se originar.
+			De legumes como cenouras e beterrabas ou até mesmo a ração peletizada.</p>				
+				
+			
+		<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="120" height="600" id="roedores" align="middle">
+				<param name="movie" value="banners/roedores.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#1f55ad" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="banners/roedores.swf" width="120" height="600">
+					<param name="movie" value="banners/roedores.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#1f55ad" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obter Adobe Flash Player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Alimentação </h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Muitos donos oferecem uma dieta a base de uma mistura de
+				sementes e grãos, que não é muito recomendada. Isso por que algumas sementes são ricas em
+				gordura e pobres em nutrientes, o que pode levar o animal a ter complicações em seu organismo.</p>
+				
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A ração peletizada especifica para cada 
+			espécie é o mais recomendado, pois apresentam um balanceamento nos nutrientes. Contudo alguns roedores 
+			necessitam de fibras em sua dieta, que podem ser fornecidas junto a ração peletizada. Essas fibras são 
+			necessárias para que o animal não tenha problemas como a má digestão.</p>			
+			
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Coprofagia </h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse habito é muito comum em muitas espécies de roedores, é 
+			simplesmente a ingestão das próprias fezes. Isso por que são ricas em vitaminas e podem ingerir quase
+			40% das fezes.</p>				
+				
+			<h3> <img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Ambiente </h3> 
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assim como os pássaros, os roedores precisam de um local limpo,
+			suficientemente grande e com apetrechos para exercícios. A gaiola deve ser comprada pensando no tamanho
+			do animal adulto, para que ele não fique com seus movimentos limitados quando adulto. Eles gostam muito
+			de comer em lugares “seguros”, então ponha uma casinha confortável para que ele possa se alimentar sem medo.</p>
+				
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os exercícios devem ser feitos tanto dentro quanto fora da gaiola.
+			Fora da gaiola o animal deve ser monitorado para que não entre em algum lugar que não deve ou roer algo
+			importante.</p>
+				
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na limpeza da gaiola ao animal deve estar fora dela, utilize serragem
+			como forro para o chão.</p>
+			
+			<h3><img class="iconPata" src="imgs/icons/pata1.png" align="left" /> Saúde </h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leve o ao veterinário anualmente a não ser que sintomas fora do normal
+			sejam notados. CUIDADO se você deixar dois machos juntos, eles costumam brigar seriamente e saírem feridos das
+			brigas, se desejar mais de um é aconselhado ter fêmeas.</p>			
+		
+		</div>
+		</br>	
+	
+	<footer>
+		</br>
+		<p id="footerP" >SIGA-NOS &nbsp; &nbsp; 
+		<a href="http://www.facebook.com"> <img class="icons" src="imgs/icons/iconFacebook.png" /> </a> 
+		<a href="http://www.instagram.com"> <img class="icons" src="imgs/icons/iconInstagram.png" /> </a> 
+		<a href="http://www.twitter.com"> <img class="icons" src="imgs/icons/iconTwitter.png" /> </a>
+		<a href="http://www.youtube.com"> <img class="icons" src="imgs/icons/iconYoutube.png" id="iconY" /> </a> </p>
+		
+		<a href="#topo"> <img id="patas" title="Subir ao topo" src="imgs/icons/patas.png" /> </a>	
+	
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script>
+		$(function() {
+			$( '#dl-menu' ).dlmenu({
+				animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+			});
+		});
+	</script>
+
+</body>
+</html>
