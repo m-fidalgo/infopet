@@ -3,3 +3,7 @@
 
 <h3>Sobre</h3>
 <p>Site informativo sobre pets (cachorros, gatos, pássaros e peixes)</p>
+
+<h3>Tecnologias e Ferramentas</h3>
+<li>ASP.NET</li>
+<li>MySQl</li>
