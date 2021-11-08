@@ -2,7 +2,7 @@
 <p align="center">TI ETEP 3WA e 4WA</p>
 
 <h3>Sobre</h3>
-<p>Site informativo sobre pets (cachorros, gatos, pássaros e peixes)</p>
+<p>Site que simula um e-commerce sobre pets (cachorros, gatos, pássaros e peixes), também contando com informações relevantes à temática</p>
 
 <h3>Tecnologias e Ferramentas</h3>
 <li>ASP.NET</li>
